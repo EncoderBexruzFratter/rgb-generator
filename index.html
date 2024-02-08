@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="title">R</h1>
+            <input id="bir" type="range" max="256">
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h1 class="title">G</h1>
+            <input id="ikki" type="range" max="256">
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h1 class="title">B</h1>
+            <input id="uch" type="range" max="256">
+        </div>
+    </div>
+    <div class="box-label">
+        rgb(
+        <label for="bir"></label>
+        ,
+        <label for="ikki"></label>
+        ,
+        <label for="uch"></label>
+        )
+        <button>Copy</button>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
